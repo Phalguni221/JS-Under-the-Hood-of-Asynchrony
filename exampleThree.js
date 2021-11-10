@@ -5,16 +5,16 @@ function exampleThree() {
     }
 
     async function two() {
-        await sleep(500)
+        await sleep(15)
         doWork()
-        await sleep(500)
+        await sleep(15)
         doWork()
     }
 
     async function three() {
-        await sleep(500)
+        await sleep(15)
         doWork()
-        await sleep(500)
+        await sleep(15)
         doWork()
     }
 
